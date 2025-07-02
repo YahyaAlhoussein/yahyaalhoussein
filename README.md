@@ -1,16 +1,58 @@
-## Hi there 👋
+# Hi, I'm Yahya Alhoussein 👋
 
-<!--
-**YahyaAlhoussein/yahyaalhoussein** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎓 Computer Science graduate from the University of Balamand  
+🧠 Passionate about building practical, scalable software solutions  
+🌍 Currently based in the United States | Fluent in English & Arabic  
+🚀 Exploring Full-Stack Development | Mobile Apps | Cloud | AI  
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 💼 About Me
+
+I'm a software developer with hands-on experience in **Java**, **Spring Boot**, **JavaScript**, **React**, **Flutter**, and **Firebase**.  
+I recently completed an intensive full-stack training program with **HTD**, where I built production-level applications from scratch.
+
+---
+
+## 🧰 Tech Stack
+
+**Languages:** Java, Dart, JavaScript, HTML/CSS, C++, SQL  
+**Frameworks & Tools:**  
+- Backend: Spring Boot, Node.js, Firebase  
+- Frontend: React, Flutter  
+- Database: Firestore, MySQL, PostgreSQL  
+- Tools: Git, GitHub, Docker, Postman  
+
+---
+
+## 📱 Featured Project – Builtzo
+
+> A mobile carpooling app that connects riders with drivers and supports real-time tracking & in-app chat.
+
+🔧 **Built With:** Flutter, Riverpod, Firebase, Socket.IO  
+🌐 **Key Features:**
+- Real-time user and driver location tracking via Google Maps
+- Firebase Authentication and Firestore integration
+- In-app chat using WebSockets (Socket.IO)
+- Clean and responsive UI
+
+[➡️ View Builtzo on GitHub](https://github.com/YahyaAlhoussein/Builtzo)
+
+---
+
+## 📊 GitHub Stats
+
+![Yahya's GitHub stats](https://github-readme-stats.vercel.app/api?username=YahyaAlhoussein&show_icons=true&theme=react)
+
+---
+
+## 📫 Let's Connect
+
+- 📧 yehya.houssen1996@gmail.com  
+- 📱 +1 (830) 212-2341  
+- 🔗 [LinkedIn](https://www.linkedin.com/in/yahyaalhoussein)  
+- 💻 Portfolio coming soon...
+
+---
+
+Thanks for visiting! ⭐️
