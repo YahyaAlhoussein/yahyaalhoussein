@@ -72,15 +72,20 @@
                 <div class="project-card">
                     <div class="card-content">
                         <h3>Builtzo | Mobile Repair Platform</h3>
-                        <div class="project-image-container" style="background-image: url('assets/images/builtzo-showcase.png');"></div>
+                        <!-- This paragraph now gives context to the button below -->
                         <p>An end-to-end mobile platform connecting users with repair technicians, featuring real-time chat, bidding, and a secure payment ecosystem via Stripe Connect.</p>
                         <div class="tech-stack">
                             <span>Flutter</span><span>Node.js</span><span>Firebase</span><span>Stripe API</span><span>Socket.IO</span>
                         </div>
                         <div class="project-links">
-                            <!-- Add your actual repo links here -->
                             <a href="https://github.com/YahyaAlhoussein/Builtzo" target="_blank" class="btn-project">GitHub Repo</a>
-                            <a href="#" target="_blank" class="btn-project">Live Demo</a>
+                            
+                            <!-- THIS IS THE NEW BUTTON THAT OPENS THE MODAL -->
+                            <button class="btn-project showcase-trigger" 
+                                    data-image="assets/images/builtzo-showcase.png" 
+                                    data-caption="Builtzo App Showcase">
+                                View Showcase
+                            </button>
                         </div>
                     </div>
                 </div>
