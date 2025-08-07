@@ -13,6 +13,7 @@
     <!-- Font Awesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- THE CORRECTED STYLESHEET LINK -->
     <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -43,7 +44,7 @@
                 <p class="subtitle fade-in">I build <span class="typing-text"></span></p>
                 <div class="hero-buttons fade-in">
                     <a href="#projects" class="btn btn-primary">View My Work</a>
-                    <a href="assets/resume.pdf" download class="btn btn-secondary">Download Resume</a> <!-- Assumes resume is in assets folder -->
+                    <a href="resume.pdf" download class="btn btn-secondary">Download Resume</a>
                 </div>
             </div>
         </section>
@@ -53,7 +54,6 @@
             <h2 class="section-title">About Me</h2>
             <div class="about-container">
                 <div class="about-image">
-                    <!-- Your profile picture is now here -->
                     <img src="assets/images/profile.jpg" alt="Yahya Alhoussein" class="fade-in"/>
                 </div>
                 <div class="about-text fade-in">
@@ -68,91 +68,110 @@
             </div>
         </section>
 
-        <!-- Projects Section -->
+        <!-- Projects Section - ALL 4 PROJECTS RESTORED -->
         <section id="projects" class="projects-section content-section">
             <h2 class="section-title">My Projects</h2>
             <div class="project-grid">
                 
-                <!-- Project 1: Builtzo -->
+                <!-- Project 1: Builtzo (RESTORED) -->
                 <div class="project-card fade-in">
-                    <!-- NOTE: The project image is now here for visual appeal -->
                     <img src="assets/images/builtzo-showcase.png" alt="Builtzo Project Thumbnail" class="project-card-image">
                     <div class="card-content">
                         <h3>Builtzo | Mobile Repair Platform</h3>
-                        <p>An end-to-end mobile platform connecting users with repair technicians, featuring real-time chat, bidding, and a secure payment ecosystem.</p>
+                        <p>An end-to-end mobile platform connecting users with repair technicians, featuring real-time chat, bidding, and a secure payment ecosystem via Stripe Connect.</p>
                         <div class="tech-stack">
-                            <span>Flutter</span><span>Node.js</span><span>Firebase</span><span>Stripe</span><span>Socket.IO</span>
+                            <span>Flutter</span><span>Node.js</span><span>Firebase</span><span>Stripe API</span><span>Socket.IO</span>
                         </div>
                         <div class="project-links">
                             <a href="https://github.com/YahyaAlhoussein/Builtzo" target="_blank" class="btn-project">GitHub Repo</a>
-                            <!-- This button still opens the modal -->
                             <button class="btn-project showcase-trigger" 
                                     data-image="assets/images/builtzo-showcase.png" 
-                                    data-caption="A full-screen view of the Builtzo application interface.">
+                                    data-caption="Builtzo App Showcase">
                                 View Showcase
                             </button>
                         </div>
                     </div>
                 </div>
 
-                <!-- Project 2: TableToppers -->
+                <!-- Project 2: TableToppers (RESTORED) -->
                 <div class="project-card fade-in">
+                    <!-- TODO: Replace 'placeholder.png' with a real screenshot of your project -->
+                    <img src="assets/images/placeholder.png" alt="TableToppers Project Thumbnail" class="project-card-image">
                     <div class="card-content">
                         <h3>TableToppers | Board Game Community</h3>
                         <p>A full-stack web app for board game enthusiasts, featuring high-performance search with Elasticsearch, user reviews, and personalized collections.</p>
                         <div class="tech-stack">
-                            <span>React</span><span>Spring Boot</span><span>Elasticsearch</span><span>SQL</span>
+                            <span>React</span><span>Spring Boot</span><span>Java</span><span>Elasticsearch</span><span>SQL</span>
                         </div>
                         <div class="project-links">
                             <a href="https://github.com/Alexei-Hazell/capstone-TableTopped/tree/development" target="_blank" class="btn-project">GitHub Repo</a>
-                            <!-- You could add a showcase for this project too! -->
+                            <a href="#" target="_blank" class="btn-project">Live Demo</a>
                         </div>
                     </div>
                 </div>
 
-                <!-- Add other project cards following the same structure -->
+                <!-- Project 3: Flight Logbook (RESTORED) -->
+                <div class="project-card fade-in">
+                    <!-- TODO: Replace 'placeholder.png' with a real screenshot of your project -->
+                    <img src="assets/images/placeholder.png" alt="Flight Logbook Project Thumbnail" class="project-card-image">
+                    <div class="card-content">
+                        <h3>Flight Logbook Web App</h3>
+                        <p>A specialized web application for pilots to digitally log flight hours and track currency, featuring real-time data synchronization with Firebase.</p>
+                        <div class="tech-stack">
+                            <span>React</span><span>Firebase</span><span>Firestore</span><span>Case Study</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/yahyaalhoussein/flight-logbook-case-study" target="_blank" class="btn-project">View Case Study</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: Dalia's Accessories (RESTORED) -->
+                <div class="project-card fade-in">
+                     <!-- TODO: Replace 'placeholder.png' with a real screenshot of your project -->
+                    <img src="assets/images/placeholder.png" alt="Dalia's Accessories Project Thumbnail" class="project-card-image">
+                    <div class="card-content">
+                        <h3>Dalia's Accessories | E-commerce</h3>
+                        <p>A complete e-commerce site built from scratch, featuring a dynamic shopping cart, product management, and user authentication with Firebase.</p>
+                        <div class="tech-stack">
+                            <span>React</span><span>Node.js</span><span>Firebase</span><span>HTML5/CSS3</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/yah96/DaliasAccessories" target="_blank" class="btn-project">GitHub Repo</a>
+                            <a href="#" target="_blank" class="btn-project">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </section>
 
-        <!-- Skills Section (No changes needed, but included for completeness) -->
+        <!-- Skills Section -->
         <section id="skills" class="skills-section content-section">
             <h2 class="section-title">Core Technologies</h2>
             <div class="skills-container">
                 <div class="skill-category fade-in">
                     <h4><i class="fas fa-server"></i> Backend</h4>
                     <ul>
-                        <li>Node.js & Express.js</li>
-                        <li>Spring Boot & Java</li>
-                        <li>REST APIs</li>
-                        <li>Clean Architecture</li>
+                        <li>Node.js</li><li>Express.js</li><li>Spring Boot</li><li>Java</li><li>REST APIs</li>
                     </ul>
                 </div>
                 <div class="skill-category fade-in">
                     <h4><i class="fas fa-desktop"></i> Frontend</h4>
                     <ul>
-                        <li>React.js</li>
-                        <li>Flutter & Dart</li>
-                        <li>JavaScript (ES6+)</li>
-                        <li>HTML5 & CSS3</li>
+                        <li>React.js</li><li>Flutter & Dart</li><li>JavaScript (ES6+)</li><li>HTML5 & CSS3</li><li>Responsive Design</li>
                     </ul>
                 </div>
                 <div class="skill-category fade-in">
                     <h4><i class="fas fa-database"></i> Databases & Services</h4>
                     <ul>
-                        <li>Firebase Suite</li>
-                        <li>SQL (PostgreSQL)</li>
-                        <li>Elasticsearch</li>
-                        <li>Stripe API & Socket.IO</li>
+                        <li>Firebase Suite</li><li>SQL (PostgreSQL)</li><li>Elasticsearch</li><li>Stripe API</li><li>Socket.IO</li>
                     </ul>
                 </div>
                 <div class="skill-category fade-in">
                     <h4><i class="fas fa-tools"></i> Tools & DevOps</h4>
                     <ul>
-                        <li>Git & GitHub</li>
-                        <li>Docker</li>
-                        <li>CI/CD</li>
-                        <li>Agile Methodologies</li>
+                        <li>Git & GitHub</li><li>Docker</li><li>CI/CD</li><li>Clean Architecture</li><li>Agile Methodologies</li>
                     </ul>
                 </div>
             </div>
@@ -170,7 +189,7 @@
         <p>&copy; 2024 Yahya Alhoussein. Built with passion and code.</p>
     </footer>
 
-    <!-- MODAL HTML (Your original code, placed before closing body tag) -->
+    <!-- MODAL HTML -->
     <div id="showcaseModal" class="modal">
       <span class="close-button">&times;</span>
       <img class="modal-content" id="showcaseImage">
