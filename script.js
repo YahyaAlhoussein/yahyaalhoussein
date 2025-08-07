@@ -71,4 +71,37 @@ document.addEventListener('DOMContentLoaded', () => {
     sections.forEach(section => {
         navObserver.observe(section);
     });
+
+    // --- ADDED THIS SECTION for Modal (Lightbox) Logic ---
+    const modal = document.getElementById("showcaseModal");
+    const modalImg = document.getElementById("showcaseImage");
+    const captionText = document.getElementById("showcaseCaption");
+    const closeBtn = document.querySelector(".close-button");
+
+    const triggerButtons = document.querySelectorAll('.showcase-trigger');
+
+    triggerButtons.forEach(button => {
+        button.onclick = function() {
+            modal.style.display = "block";
+            // Check if the image path exists before setting it
+            // This is a good practice for debugging
+            const imagePath = this.dataset.image;
+            console.log("Attempting to load image:", imagePath); // Check console for this message
+            modalImg.src = imagePath;
+            captionText.innerHTML = this.dataset.caption;
+        }
+    });
+
+    if (closeBtn) {
+        closeBtn.onclick = function() {
+            modal.style.display = "none";
+        }
+    }
+
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+
 });
